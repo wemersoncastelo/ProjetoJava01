@@ -8,8 +8,6 @@ public class Pessoa {
 	private int idade;
 	private Date dataNascimento;
 	
-	private Date dataNascimento2;
-	
 	//	Getter and Setter
 	public String getNome() {
 		return nome;
