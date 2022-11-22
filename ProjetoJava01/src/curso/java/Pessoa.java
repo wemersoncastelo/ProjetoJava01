@@ -1,16 +1,13 @@
 package curso.java;
 
+import java.util.Date;
+
 public class Pessoa {
 	private String nome;
 	private String sobrenome;
 	private int idade;
+	private Date dataNascimento;
 	
-public int getIdade() {
-		return idade;
-	}
-	public void setIdade(int idade) {
-		this.idade = idade;
-	}
 	//	Getter and Setter
 	public String getNome() {
 		return nome;
@@ -24,5 +21,16 @@ public int getIdade() {
 	public void setSobrenome(String sobrenome) {
 		this.sobrenome = sobrenome;
 	}
-
+	public Date getDataNascimento() {
+		return dataNascimento;
+	}
+	public void setDataNascimento(Date dataNascimento) {
+		this.dataNascimento = dataNascimento;
+	}
+	public int getIdade() {
+		return idade;
+	}
+	public void setIdade(int idade) {
+		this.idade = idade;
+	}
 }
