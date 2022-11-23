@@ -5,7 +5,6 @@ import java.util.Date;
 public class Pessoa {
 	private String nome;
 	private String sobrenome;
-	private String endereco;
 	private int idade;
 	private Date dataNascimento;
 	
